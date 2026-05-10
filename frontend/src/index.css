@@ -1,0 +1,19 @@
+/* Tailwind v4 only requires this single import */
+@import "tailwindcss";
+
+/* In v4, we define custom colors directly in CSS.
+  Tailwind automatically creates utility classes for these 
+  (e.g., bg-primary, text-sidebar) 
+*/
+/* @theme - Tailwind v4 custom theme definition */
+@theme {
+  --color-primary: #0d6efd;
+  --color-sidebar: #1e293b;
+  --color-board: #f8fafc;
+}
+
+/* Base styles to match your wireframe background */
+body {
+  background-color: #f1f5f9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}

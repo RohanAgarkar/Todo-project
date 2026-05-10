@@ -1,0 +1,2 @@
+linux build:
+WINEARCH=win32 WINEPREFIX=/home/rohan/.wine32 npm run electron:build -- --win --linux
